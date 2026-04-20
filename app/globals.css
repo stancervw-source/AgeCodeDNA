@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Saans — place woff2 files in /public/fonts/ */
+@font-face {
+  font-family: 'Saans';
+  src: url('/fonts/Saans-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Saans';
+  src: url('/fonts/Saans-Medium.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Saans';
+  src: url('/fonts/Saans-SemiBold.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+:root {
+  --bg: #0A0A0A;
+  --surface: #141414;
+  --surface-hover: #1A1A1A;
+  --text-primary: #F5F5F5;
+  --text-secondary: #A0A0A0;
+  --text-muted: #666666;
+  --violet: #7C5CFC;
+  --violet-glow: rgba(124, 92, 252, 0.15);
+  --green: #A3E635;
+  --border: #222222;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bg);
+  color: var(--text-primary);
+  font-family: 'Saans', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+
+::selection {
+  background: rgba(124, 92, 252, 0.3);
+  color: #F5F5F5;
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 4px;
+}
+::-webkit-scrollbar-track {
+  background: #0A0A0A;
+}
+::-webkit-scrollbar-thumb {
+  background: #222222;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7C5CFC;
+}
+
+.font-mono {
+  font-family: 'JetBrains Mono', monospace;
+}
+
+.violet-glow {
+  box-shadow: 0 0 40px rgba(124, 92, 252, 0.2);
+}
+
+.violet-border-glow {
+  box-shadow: 0 0 0 1px rgba(124, 92, 252, 0.4), 0 0 20px rgba(124, 92, 252, 0.1);
+}
+
+@keyframes typing-cursor {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.cursor::after {
+  content: '|';
+  animation: typing-cursor 1s step-end infinite;
+  color: #7C5CFC;
+}
+
+@keyframes sweep {
+  0% { transform: translateX(-100%); opacity: 0; }
+  50% { opacity: 1; }
+  100% { transform: translateX(100%); opacity: 0; }
+}
+
+.violet-sweep {
+  animation: sweep 1.2s ease-in-out forwards;
+}
