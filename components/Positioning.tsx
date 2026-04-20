@@ -15,11 +15,10 @@ export default function Positioning() {
           className="font-sans font-semibold leading-tight"
           style={{ color: '#F5F5F5', fontSize: 'clamp(1.6rem, 3.5vw, 2.8rem)' }}
         >
-          "AgeCode DNA Insights is the only platform that uses genetic data as a core layer: not
-          a static risk report, but a permanent reference point that calibrates every
-          recommendation — from daily nutrition and training decisions to long-term health and
-          longevity strategy — and reveals{' '}
-          <em style={{ color: '#7C5CFC' }}>innate advantages invisible to standard analytics.</em>"
+          "AgeCode DNA Insights uses your DNA as a core reference point - translating genetic data into{' '}
+          <em style={{ color: '#7C5CFC' }}>clear</em>,{' '}
+          <em style={{ color: '#7C5CFC' }}>personalized</em> daily{' '}
+          <em style={{ color: '#7C5CFC' }}>decisions</em>."
         </blockquote>
       </FadeInOnScroll>
     </section>
