@@ -37,7 +37,7 @@ export default function First60Days() {
   return (
     <section style={{ maxWidth: '1200px', margin: '0 auto', padding: '128px 24px' }}>
       <FadeInOnScroll>
-        <SectionHeader label="05 - First 60 Days" />
+        <SectionHeader label="05 — First 60 Days" />
         <h2
           className="font-sans font-semibold text-4xl lg:text-5xl tracking-tight mb-5"
           style={{ color: '#F5F7FA' }}
@@ -53,7 +53,7 @@ export default function First60Days() {
       <div className="space-y-16">
         {priorities.map((p, i) => (
           <FadeInOnScroll key={i} delay={i * 0.08}>
-            <div style={{ maxWidth: '720px' }}>
+            <div>
               {/* Label */}
               <p
                 className="font-mono text-xs uppercase tracking-widest mb-4"
@@ -91,7 +91,6 @@ export default function First60Days() {
       <FadeInOnScroll delay={0.1}>
         <div
           style={{
-            maxWidth: '720px',
             marginTop: '80px',
             paddingTop: '48px',
             borderTop: '1px solid rgba(255,255,255,0.08)',

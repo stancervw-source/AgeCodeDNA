@@ -4,12 +4,12 @@ import AudienceInsight from '@/components/AudienceInsight'
 import Positioning from '@/components/Positioning'
 import NotThisButThis from '@/components/NotThisButThis'
 import ValueProposition from '@/components/ValueProposition'
-import BigIdea from '@/components/BigIdea'
 import SystemDiagram from '@/components/SystemDiagram'
+import BigIdea from '@/components/BigIdea'
 import Tagline from '@/components/Tagline'
 import Rationale from '@/components/Rationale'
-import ArtDirection from '@/components/ArtDirection'
 import DefaultVsCoreDemo from '@/components/DefaultVsCoreDemo'
+import ArtDirection from '@/components/ArtDirection'
 import InProductActivation from '@/components/InProductActivation'
 import EarnedMedia from '@/components/EarnedMedia'
 import First60Days from '@/components/First60Days'
@@ -37,6 +37,8 @@ export default function Home() {
         <NotThisButThis />
         <VioletPulse />
         <ValueProposition />
+        <VioletPulse />
+        <SystemDiagram />
       </div>
 
       <SectionDivider />
@@ -44,11 +46,12 @@ export default function Home() {
       {/* 02 — Creative Platform */}
       <div id="creative">
         <BigIdea />
-        <SystemDiagram />
         <VioletPulse />
         <Tagline />
         <VioletPulse />
         <Rationale />
+        <VioletPulse />
+        <DefaultVsCoreDemo />
       </div>
 
       <SectionDivider />
@@ -56,13 +59,11 @@ export default function Home() {
       {/* 03 — Art Direction */}
       <div id="art">
         <ArtDirection />
-        <VioletPulse />
-        <DefaultVsCoreDemo />
       </div>
 
       <SectionDivider />
 
-      {/* 04 — Activations */}
+      {/* 04 — Activation */}
       <div id="activations">
         <InProductActivation />
         <VioletPulse />

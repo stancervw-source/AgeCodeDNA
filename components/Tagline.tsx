@@ -7,7 +7,6 @@ const touchpoints = [
   { label: 'CTA', text: '"Align to your core →"' },
   { label: 'In-product', text: '"Your core is loaded. Here\'s what changed."' },
   { label: 'Series format', text: '"Default / Core-aligned"' },
-  { label: 'Hashtag', text: '#AlignToYourCore' },
 ]
 
 export default function Tagline() {

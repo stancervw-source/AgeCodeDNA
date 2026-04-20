@@ -39,7 +39,7 @@ export default function EarnedMedia() {
           className="font-sans font-semibold text-4xl lg:text-5xl tracking-tight mb-5"
           style={{ color: '#F5F7FA' }}
         >
-          Earned Media Activation
+          Out-of-the-box Activation
         </h2>
         <p
           className="text-base max-w-2xl mb-20"

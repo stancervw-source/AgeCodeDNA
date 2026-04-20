@@ -53,9 +53,9 @@ export default function SystemDiagram() {
   return (
     <section style={{ maxWidth: '1200px', margin: '0 auto', padding: '0 24px 128px' }}>
       <FadeInOnScroll>
-        <h2 className="font-sans font-semibold text-4xl lg:text-5xl tracking-tight mb-4" style={{ color: '#F5F5F5' }}>
+        <h3 className="font-sans font-semibold text-xl lg:text-2xl tracking-tight mb-4" style={{ color: '#C7CCD6' }}>
           How the system works
-        </h2>
+        </h3>
         <p className="text-base mb-16 max-w-xl" style={{ color: '#8A8A8A' }}>
           DNA isn't another data stream. It's the origin layer that gives all other health data its correct meaning.
         </p>

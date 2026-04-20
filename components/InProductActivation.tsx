@@ -386,7 +386,7 @@ export default function InProductActivation() {
 
       {/* Section header */}
       <FadeInOnScroll>
-        <SectionHeader label="04 — Activations" />
+        <SectionHeader label="04 — Activation" />
         <h2
           className="font-sans font-semibold text-4xl lg:text-5xl tracking-tight mb-4"
           style={{ color: '#F5F5F5' }}

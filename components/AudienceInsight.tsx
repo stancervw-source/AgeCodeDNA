@@ -33,7 +33,7 @@ export default function AudienceInsight() {
 
       {/* Section header */}
       <FadeInOnScroll>
-        <SectionHeader label="01 - Strategy" />
+        <SectionHeader label="01 — Strategy" />
         <h2
           className="font-sans font-semibold text-5xl lg:text-6xl tracking-tight mb-12"
           style={{ color: '#F5F7FA' }}

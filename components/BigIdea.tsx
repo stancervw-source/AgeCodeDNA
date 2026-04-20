@@ -7,7 +7,7 @@ export default function BigIdea() {
   return (
     <section style={{ maxWidth: '1200px', margin: '0 auto', padding: '128px 24px 64px' }}>
       <FadeInOnScroll>
-        <SectionHeader label="02 - Creative Platform" />
+        <SectionHeader label="02 — Creative Platform" />
         <h2
           className="font-sans font-semibold text-4xl lg:text-5xl tracking-tight mb-12"
           style={{ color: '#F5F7FA' }}

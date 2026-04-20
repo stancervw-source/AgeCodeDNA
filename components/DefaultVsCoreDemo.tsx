@@ -20,12 +20,12 @@ export default function DefaultVsCoreDemo() {
       <FadeInOnScroll>
         <div className="flex flex-col md:flex-row md:items-end md:justify-between gap-4 mb-12">
           <div>
-            <h2
-              className="font-sans font-semibold text-4xl lg:text-5xl tracking-tight mb-3"
-              style={{ color: '#F5F7FA' }}
+            <h3
+              className="font-sans font-semibold text-xl lg:text-2xl tracking-tight mb-3"
+              style={{ color: '#C7CCD6' }}
             >
               Default - Core-aligned
-            </h2>
+            </h3>
             <p className="text-base max-w-xl" style={{ color: '#8A90A2' }}>
               Same health data. Different layer. One gives averages. One gives answers.
             </p>
